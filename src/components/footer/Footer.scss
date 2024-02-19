@@ -1,0 +1,107 @@
+// Footer.scss
+@import '../../styles/theme.scss';
+
+.footer-container {
+    margin-top: 8rem;
+    background-color: $dark-color;
+    color: #fff;
+    font-size: 13px;
+    padding: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+
+    .footer-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+
+        .footer-logo {
+            img {
+                width: 125px;
+                height: 125px;
+                object-fit: cover;
+            }
+        }
+
+        .footer-navigation {
+            display: flex;
+
+            .footer-column {
+                margin: 0 20px;
+
+                h3 {
+                    margin-bottom: 10px;
+                    font-weight: 600;
+                }
+
+                a {
+                    display: block;
+                    margin-bottom: 5px;
+                    color: #fff;
+                    text-decoration: none;
+                    transition: color 0.3s;
+
+                    &:hover {
+                        color: $secondary-color;
+                    }
+                }
+
+                p {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin: 0;
+        }
+
+        .social-media {
+            a {
+                margin-left: 10px;
+                color: #fff;
+                text-decoration: none;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: $secondary-color;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-container .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+
+        .footer-logo {
+            margin-bottom: 10px;
+        }
+
+        .footer-navigation {
+            flex-direction: column;
+            align-items: flex-start;
+
+            .footer-column {
+                margin: 10px 0;
+            }
+        }
+    }
+
+    .footer-container .footer-bottom {
+        flex-direction: column;
+        align-items: flex-start;
+
+        p {
+            margin-bottom: 10px;
+        }
+    }
+}

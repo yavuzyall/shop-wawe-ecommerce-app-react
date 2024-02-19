@@ -1,0 +1,186 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import '../../styles/theme.scss';
+
+.loading {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.product-detail-page {
+    width: 80%;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+
+    .ad-banner {
+        width: 100%;
+        margin: 1rem 0 1rem 0;
+        height: 150px;
+        overflow: hidden;
+        border-radius: 3px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .product-info {
+        display: grid;
+        grid-template-columns: 40% 50%;
+        // justify-content: space-between;
+        border: 1px solid $primary-color;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: $bg-color;
+
+        .product-image {
+            width: 100%;
+            height: 350px;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+                height: 100%;
+
+            }
+        }
+
+        .product-details {
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            margin-left: 2rem;
+            // flex-direction: column;
+            // justify-content: space-evenly;
+
+            .name {
+                grid-column: 1 / 3;
+            }
+
+            .price {
+                grid-column: 1 / 2;
+                font-size: x-large;
+                font-weight: 600;
+                font-style: oblique;
+                color: #439e4a;
+                text-align: start;
+
+                span {
+                    font-size: large;
+                    font-style: normal;
+                }
+            }
+
+            .installment {
+                grid-column: 1 / 3;
+                text-align: start;
+                display: flex;
+                flex-direction: column;
+
+                span {
+                    font-weight: 700;
+                }
+
+                .instalment-options {
+                    display: inline-block;
+                    font-size: 15px;
+                    font-weight: 500;
+                    color: $text-color;
+                    cursor: pointer;
+                }
+            }
+
+            .rating {
+                grid-column: 2 / 3;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                align-items: center;
+                gap: 5px;
+                font-size: 19px;
+
+                .rate-value {
+                    display: flex;
+                    justify-content: space-between;
+                    gap: 7px;
+                }
+
+                .rate-count {
+                    font-size: 12px;
+                    font-weight: 500;
+                }
+            }
+
+            .cart-actions {
+                grid-column: 1 / 3;
+                text-align: start;
+                display: flex;
+                gap: 30px;
+
+                .add-to-cart-button {
+                    height: 66%;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: $button-color;
+                    color: white;
+                    transition: all 0.3s;
+                    cursor: pointer;
+
+                    &:hover {
+                        background-color: $button-hover;
+                    }
+                }
+            }
+
+            .actions {
+                grid-column: 1 / 3;
+                text-align: start;
+                display: flex;
+                gap: 45px;
+
+                .like-button {
+
+                    .like-symbol {
+                        cursor: pointer;
+                        font-size: 40px;
+                        color: $primary-color;
+                    }
+                }
+
+                .save-button {
+
+                    .save-symbol {
+                        cursor: pointer;
+                        font-size: 40px;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .description-container {
+        border: 1px solid $primary-color;
+        margin-top: 3rem;
+        padding: 1.5rem;
+        border-radius: 10px;
+        background-color: $bg-color;
+
+        .description {
+            p {
+                letter-spacing: 1px;
+                line-height: 1.2;
+                word-spacing: 2px;
+                text-align: left;
+            }
+        }
+    }
+}

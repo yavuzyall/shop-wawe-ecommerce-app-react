@@ -1,0 +1,130 @@
+@import '../../styles/theme.scss';
+
+
+.products-container {
+    min-height: 100vh;
+    display: flex;
+    gap: 20px;
+    margin-bottom: -8rem;
+
+    .filter-section {
+        width: 20%;
+        height: 100vh;
+        position: sticky;
+        top: 1px;
+        bottom: 1px;
+        background-color: $bg-color;
+
+        .filter{
+            // background-color: red;
+            width: 100%;
+        }
+    }
+
+    .products-section {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+
+        .products-header {
+            text-align: center;
+        }
+
+        .products-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-bottom: 4rem;
+
+            .product-item {
+                min-width: 250px;
+                width: 30%;
+                border: 1px solid $primary-color;
+                border-radius: 10px;
+                overflow: hidden;
+                min-height: 400px;
+                max-height: 400px;
+                display: flex;
+                flex-direction: column;
+                font-size: 13px;
+
+
+                .link {
+                    text-decoration: none;
+                    color: inherit;
+                }
+
+
+                .image-div {
+                    // background-color: $bg-color;
+                    width: 100%;
+                    height: 240px;
+                    overflow: hidden;
+                    border-bottom: 1px solid $text-color;
+
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                .product-info {
+                    height: 100%;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    background-color: $bg-color;
+
+                    .product-name {
+                        h3 {
+                            height: 20px;
+                            margin-bottom: 1.5rem;
+
+                        }
+                    }
+
+                    .text-area {
+                        .rating {
+                            display: flex;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            text-align: center;
+                            font-style: italic;
+
+                            .rate-number {
+                                margin-left: 0.55rem;
+                                font-size: 11px;
+                            }
+                        }
+                        .price{
+                            font-weight: 900;
+                        }
+                    }
+                }
+
+                .products-button-container {
+                    margin-top: 1rem;
+                    text-align: center;
+
+                    button {
+                        background-color: $button-hover;
+                        padding: 5px;
+                        border: none;
+                        height: 27px;
+                        width: 50%;
+                        border-radius: 10px;
+                        transition: all 0.3s;
+                        color: white;
+                        cursor: pointer;
+
+                        &:hover {
+                            background-color: $text-color;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}

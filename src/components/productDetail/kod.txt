@@ -1,0 +1,62 @@
+  const addToCart = async () => {
+
+    const userItem = localStorage.getItem('user');
+    const user = userItem ? JSON.parse(userItem) : null;
+
+    const productId = product.id;
+
+    if (!productId) {
+      console.error("Product ID is not available.");
+      return;
+    }
+
+    if (user) {
+
+      let localCart: CartItem[] = JSON.parse(localStorage.getItem('cart') || '[]');
+      // const mergedCart = [...(user.cart || []), ...localCart, { productId: product?.id, quantity: quantity }];
+      const existingProductIndex = localCart.findIndex((item: CartItem) => item.productId === productId);
+
+      if (existingProductIndex !== -1) {
+        localCart[existingProductIndex].quantity += quantity;
+      } else {
+        localCart.push({
+          productId: product.id,
+          quantity: quantity
+        });
+      }
+      try {
+        await updateCartInDB(user, localCart);
+        toast.success('Ürün sepete eklendi.', {
+          position: "bottom-right",
+          autoClose: 2000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        })
+
+      } catch (error) {
+        console.error("DB - Cart update edilirken bir hata oluştu: ", error);
+      }
+
+    } else {
+
+      let cart = JSON.parse(localStorage.getItem('cart') || '[]');
+
+      const existingProductIndex = cart.findIndex((item: CartItem) => item.productId === productId)
+
+      if (existingProductIndex !== -1) {
+        cart[existingProductIndex].quantity += quantity;
+      } else {
+        cart.push({
+          productId: product?.id,
+          quantity: quantity
+        });
+      }
+
+
+      localStorage.setItem('cart', JSON.stringify(cart));
+
+    }
+  }

@@ -1,0 +1,40 @@
+@import '../../styles/theme.scss';
+
+
+.filters {
+    max-height: 95vh;
+    overflow-y: auto;
+    
+    .filter {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+        label{
+            margin-top: 0.50rem;
+        }
+        select {
+            width: 90%;
+            padding: 10px;
+            border: 1px solid $secondary-color;
+            border-radius: 10px;
+            outline: none;
+            transition: border-color 0.3s;
+            position: relative;
+            transition: all 0.3s ease;
+            appearance: none;
+            text-align: center;
+            // background: url('data:image/svg+xml;utf8,<svg fill="gray" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>') no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 24px;
+
+            &:hover {
+                border: 1px solid $dark-color;
+            }
+
+            &:focus {
+                border: 1px solid $dark-color;
+            }
+        }
+    }
+}

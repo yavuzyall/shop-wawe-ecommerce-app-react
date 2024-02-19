@@ -1,0 +1,5 @@
+export enum ActionTypes{
+    USER_LOGIN = 'USER_LOGIN',
+    USER_LOGOUT = 'USER_LOGOUT',
+    UPDATE_CART_ITEM_COUNT = 'UPDATE_CART_ITEM_COUNT',
+}

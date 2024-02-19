@@ -1,0 +1,104 @@
+@import '../../styles/theme.scss';
+
+.cart-item {
+    box-sizing: border-box;
+    margin: 1rem auto;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-top: 1px solid $button-hover;
+    flex-wrap: wrap;
+
+
+    .img-div {
+        width: 30%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+        overflow: hidden;
+        border-radius: 10px;
+        height: 200px;
+        background-color: white;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .info {
+        margin-left: 2rem;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .product-name {
+            font-size: 17px;
+        }
+
+        .product-quantity {
+            display: inherit;
+            align-items: center;
+            text-align: center;
+
+
+            .delete-product {
+                cursor: pointer;
+                margin-left: 1rem;
+                width: 30px;
+                height: 30px;
+                color: white;
+                // background-color: $primary-color;
+                background-color: #fa2b2b;
+                border-radius: 100%;
+                transition: font-size 0.3s;
+
+                &:hover {
+                    // background-color: $button-color;
+                    background-color: #ce0e0e;
+                    font-size: 29px;
+                }
+
+                .delete-symbol {
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+
+    .product-price {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        div {
+            display: flex;
+            grid-column: 1 / 2;
+            font-size: x-large;
+            font-weight: 600;
+            font-style: oblique;
+            color: #439e4a;
+            text-align: start;
+            align-items: center;
+
+            p {
+                margin: 0;
+                font-style: italic;
+
+            }
+
+            .tl {
+                font-style: normal;
+
+                margin-left: 0.25rem;
+                font-size: large;
+
+            }
+        }
+
+
+    }
+
+
+}

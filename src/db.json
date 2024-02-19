@@ -1,0 +1,256 @@
+{
+  "users": [
+    {
+      "userMail": "yyalcin41@gmail.com",
+      "userFirstname": "Yavuz",
+      "userLastname": "Yalçın",
+      "userPassword": "Yavuz123",
+      "userConPassword": "Yavuz123",
+      "userPhone": "5423467654",
+      "userId": "61e5846d-4026-4fa5-af0c-f2a94acb9945",
+      "id": 1,
+      "cart": [],
+      "addresses": [
+        {
+          "addressName": "Ev",
+          "name": "Yavuz",
+          "lastname": "Yalçın",
+          "phoneNumber": "5423467654",
+          "province": "İzmir",
+          "district": "Buca",
+          "neighbourhood": "Atatürk",
+          "postcode": "35700",
+          "addressLine": "10. Sokak, No 56, Daire 2",
+          "addressId": "1"
+        },
+        {
+          "addressName": "Iş Depark",
+          "name": "Tahir",
+          "lastname": "Yalçın",
+          "phoneNumber": "3413213213",
+          "province": "İzmir",
+          "district": "Yıldırım",
+          "neighbourhood": "Cumhuriyet",
+          "postcode": 35400,
+          "addressLine": "Adatepe mah., 27 sokak, No 1, İzmir/Buca",
+          "addressId": "caf35c37-626f-4359-8b26-6b955bfaf6b1"
+        },
+        {
+          "addressName": "Artvin Köy",
+          "name": "Esma",
+          "lastname": "Yalçın",
+          "phoneNumber": "5263589741",
+          "province": "Artvin",
+          "district": "Merkez",
+          "neighbourhood": "Cumhuriyet",
+          "postcode": 8100,
+          "addressLine": "54. Sokak, No 56, Daire 3",
+          "addressId": "caf35c37-626f-4359-8b26-6b955bfaf6b1"
+        }
+      ],
+      "orders": []
+    },
+    {
+      "userMail": "yyalcin411@gmail.com",
+      "userFirstname": "Yavuz",
+      "userLastname": "Yalçın",
+      "userPassword": "Yavuz12345",
+      "userConPassword": "Yavuz12345",
+      "userPhone": "5423487653",
+      "userId": "9417b60c-f0ac-4b8b-8277-ef36b68853a9",
+      "id": 2
+    },
+    {
+      "userMail": "muhammed@gmail.com",
+      "userFirstname": "Muhammed",
+      "userLastname": "Aydoğan",
+      "userPassword": "Muhammed123",
+      "userConPassword": "Muhammed123",
+      "userPhone": "5389564785",
+      "userId": "484a9b01-6fc6-421e-b222-229a3f2a558d",
+      "id": 3
+    },
+    {
+      "userMail": "muhammed.slmz@gmail.com",
+      "userFirstname": "Muhammed",
+      "userLastname": "Solmaz",
+      "userPassword": "Muhammed12345",
+      "userConPassword": "Muhammed12345",
+      "userPhone": "5347658432",
+      "userId": "e1dbd05e-2a6f-4353-b228-46b99542fc63",
+      "id": 4
+    },
+    {
+      "userMail": "sibelkukey@gmail.com",
+      "userFirstname": "Sibel",
+      "userLastname": "Kükey",
+      "userPassword": "Sibel123",
+      "userConPassword": "Sibel123",
+      "userPhone": "5413427957",
+      "userId": "23e1c920-1060-4682-a669-599c37bb19f1",
+      "id": 5
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Ürün 1",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "price": 99.9,
+      "rating": 4.5,
+      "reviewCount": 150,
+      "purchaseNumber": 720,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 1,
+      "productType": "kulakliklar"
+    },
+    {
+      "id": 2,
+      "name": "Ürün 2",
+      "imageUrl": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "price": 99.99,
+      "rating": 4.6,
+      "reviewCount": 158,
+      "purchaseNumber": 90,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 1,
+      "productType": "kulakliklar"
+    },
+    {
+      "id": 3,
+      "name": "Vintage Ahşap Saat",
+      "imageUrl": "https://images.unsplash.com/photo-1528387810833-7b46bb8e8778?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1935&q=80",
+      "price": 199,
+      "rating": 4.8,
+      "reviewCount": 90,
+      "purchaseNumber": 96,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "saat"
+    },
+    {
+      "id": 4,
+      "name": "Seramik Kahve Fincanı Seti 900'e 500 boyutlarında, kırmızı",
+      "imageUrl": "https://images.unsplash.com/photo-1629131530693-88a039c35448?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 149.99,
+      "rating": 4.6,
+      "reviewCount": 120,
+      "purchaseNumber": 147,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "banyo-mutfak"
+    },
+    {
+      "id": 5,
+      "name": "Minimalist Metal Lamba",
+      "imageUrl": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
+      "price": 175.5,
+      "rating": 4.7,
+      "reviewCount": 105,
+      "purchaseNumber": 287,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "ev-dekorasyon"
+    },
+    {
+      "id": 6,
+      "name": "Retro Vinil Çalar",
+      "imageUrl": "https://images.unsplash.com/photo-1510100831744-b8d7fea7ca2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "price": 299.99,
+      "rating": 3.9,
+      "reviewCount": 80,
+      "purchaseNumber": 343,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "ev-dekorasyon"
+    },
+    {
+      "id": 7,
+      "name": "Çelik Termos",
+      "imageUrl": "https://images.unsplash.com/photo-1610399809302-f1dd7ec33187?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1030&q=80",
+      "price": 120,
+      "rating": 2.4,
+      "reviewCount": 200,
+      "purchaseNumber": 678,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 6,
+      "productType": "fitness-kondisyon"
+    },
+    {
+      "id": 8,
+      "name": "Siyah Deri Cüzdan",
+      "imageUrl": "https://images.unsplash.com/photo-1601592996763-f05c9c80a7f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80",
+      "price": 80,
+      "rating": 4.3,
+      "reviewCount": 180,
+      "purchaseNumber": 675,
+      "description": "Siyah deri cüzdan, hem şık bir aksesuar hem de pratik bir organizasyon aracı olarak günlük yaşamınızın vazgeçilmez bir parçası olacak. Bu özel tasarım cüzdan, hem erkeklerin hem de kadınların ihtiyaçlarını karşılayacak şekilde tasarlanmıştır. Siyah deri cüzdanın en dikkat çekici özelliği zarif ve sade tasarımıdır. Siyah rengin asaleti ile derinin dayanıklılığı bir araya gelerek, bu cüzdanı hem iş hem de günlük kullanım için mükemmel bir seçenek haline getirir. İster bir iş toplantısına katılın, ister arkadaşlarınızla bir akşam yemeği planlayın, bu cüzdan her durumda tarzınızı tamamlayacak. Cüzdanın iç yapısı da düşünülerek tasarlanmıştır. Geniş iç bölme, banknotlarınızı ve belgelerinizi düzenli bir şekilde saklamanıza olanak tanırken, kart yuvaları kredi kartları, kimlik kartları ve sadakat kartlarınız için geniş bir alan sunar. Ayrıca, fermuarlı bir bölmeye sahip olan cüzdan, bozuk paralarınızı güvende tutar. Dayanıklı deri malzeme, cüzdanın uzun ömürlü olmasını sağlar ve her kullanımda yeni gibi görünmesini sağlar. Cüzdanın boyutu ise cebe kolayca sığacak kadar kompakt, ancak tüm önemli öğelerinizi düzenli bir şekilde saklayacak kadar geniştir. Siyah deri cüzdan, hem stil sahibi bir aksesuar hem de işlevselliğiyle öne çıkan bir ürün arayanlar için mükemmel bir seçenektir. Kendiniz için veya sevdikleriniz için şık bir hediye olarak da düşünülebilir. Siyah deri cüzdanla, tarzınızı tamamlayın ve düzenin tadını çıkarın. Unutmayın, şıklık ayrıntılarda gizlidir!",
+      "categoryId": 4,
+      "productType": "aksesuar-taki"
+    },
+    {
+      "id": 9,
+      "name": "Bambu Kesme Tahtası",
+      "imageUrl": "https://images.unsplash.com/photo-1624811533744-f85d5325d49c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+      "price": 50,
+      "rating": 4.7,
+      "reviewCount": 300,
+      "purchaseNumber": 346,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "banyo-mutfak"
+    },
+    {
+      "id": 10,
+      "name": "Kristal Şamdan",
+      "imageUrl": "https://images.unsplash.com/photo-1607511359033-4cc5532f66b5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=986&q=80",
+      "price": 250,
+      "rating": 4.8,
+      "reviewCount": 75,
+      "purchaseNumber": 125,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 3,
+      "productType": "ev-dekorasyon"
+    },
+    {
+      "id": 11,
+      "name": "Katlanabilir Yoga Matı",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1681296470883-fa10ad32d1b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+      "price": 95.6,
+      "rating": 4.6,
+      "reviewCount": 150,
+      "purchaseNumber": 1250,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 6,
+      "productType": "fitness-kondisyon"
+    },
+    {
+      "id": 12,
+      "name": "Lenovo ThinkPad E15",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1681296470883-fa10ad32d1b2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80",
+      "price": 19650,
+      "rating": 4.1,
+      "reviewCount": 182,
+      "purchaseNumber": 356,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 1,
+      "productType": "bilgisayarlar",
+      "brand": "Lenovo",
+      "processorType": "Intel i5"
+    },
+    {
+      "id": 13,
+      "name": "Dell Inspiron 5415",
+      "imageUrl": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      "price": 20250,
+      "rating": 3.9,
+      "reviewCount": 432,
+      "purchaseNumber": 421,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vestibulum ac nunc at porta. Fusce non felis orci. In venenatis ante eu risus porttitor varius. Praesent in vestibulum magna. Sed sagittis eu metus eu congue. Nullam fermentum ex vel mi eleifend, quis feugiat nibh euismod. Maecenas rhoncus, elit at aliquam aliquet, nulla sem venenatis arcu, in dignissim massa metus vel dolor. Phasellus ac libero aliquam, rhoncus lorem sagittis, volutpat ligula. Nulla nec ex at tellus viverra semper quis non sem. Sed at hendrerit nunc. Curabitur euismod lacinia lorem vel mattis. Ut pulvinar sem commodo orci faucibus, eu elementum neque fermentum. Donec iaculis nulla ac lectus finibus cursus. Sed sit amet massa vel tellus suscipit convallis eget porttitor nisl. Aenean commodo neque nulla, sit amet convallis ligula cursus eget.",
+      "categoryId": 1,
+      "productType": "bilgisayarlar",
+      "brand": "Dell",
+      "processorType": "Intel i7"
+    }
+  ]
+}
