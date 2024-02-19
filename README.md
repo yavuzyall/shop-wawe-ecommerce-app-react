@@ -1,3 +1,6 @@
+# E-Commerce Website with React and TypeScript
+This project is a project that I have not worked on for a long time, which I have been working on for a long period of time in order to develop some features and code structures within the scope of my development. An E-Commerce site was built on React and TypeScript infrastructure and many stages were coded as simulations. It cannot be called a complete real e-commerce site. However, many functionalities have been completed. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
