@@ -1,5 +1,28 @@
 # E-Commerce Website with React and TypeScript
 This project is a project that I have not worked on for a long time, which I have been working on for a long period of time in order to develop some features and code structures within the scope of my development. An E-Commerce site was built on React and TypeScript infrastructure and many stages were coded as simulations. It cannot be called a complete real e-commerce site. However, many functionalities have been completed. 
+# Some Images
+#### Sample Image 1
+![Sample Image 1](https://github.com/yavuzyall/shop-wawe-ecommerce-app-react/blob/main/shopwawe-1.png)
+<hr>
+
+#### Sample Image 2
+![Sample Image 2](https://github.com/yavuzyall/shop-wawe-ecommerce-app-react/blob/main/shop-wawe-2.png)
+<hr>
+
+#### Sample Image 3
+![Sample Image 3](https://github.com/yavuzyall/shop-wawe-ecommerce-app-react/blob/main/shop-wawe-3.png)
+<hr>
+
+#### Sample Image 4
+![Sample Image 4](https://github.com/yavuzyall/shop-wawe-ecommerce-app-react/blob/main/shop-wawe-4.png)
+<hr>
+
+#### Sample Image 5
+![Sample Image 5](https://github.com/yavuzyall/shop-wawe-ecommerce-app-react/blob/main/shop-wawe-5.png)
+<hr>
+
+# General Information About Technology
+Many different libraries and code structures were used in the project. Project technology stack HTML, SCSS, TypeScript, React. Some libraries used are Formik, Yup, Redux, Toastify, Axios, uuid, slic-carousel, Router etc...
 
 # Getting Started with Create React App
 
